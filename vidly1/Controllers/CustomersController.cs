@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -11,6 +12,7 @@ namespace vidly1.Controllers
   public class CustomersController : Controller
   {
     private ApplicationDbContext _context;
+    private int id;
 
     public CustomersController()
     {
@@ -24,10 +26,11 @@ namespace vidly1.Controllers
 
     // GET: Customers
 
-    public ActionResult Index()
+    public ViewResult Index()
     {
-      var customers = _context.Customers.ToList();
-        return View(customers);
+      var customers = _context.Customers.Include(c => c.MembershipType).ToList();
+
+      return View(customers);
     }
 
     [Route("customers/details/{id:regex(\\d)}")]

@@ -241,7 +241,7 @@
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="ViewModels\CustomersDetailsViewModel - Copy.cs" />
+    <Compile Include="ViewModels\CustomersDetailsViewModel.cs" />
     <Compile Include="ViewModels\MoviesDetailsViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
