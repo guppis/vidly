@@ -132,3 +132,4 @@ C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.Membershi
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.ApplyAnnotationsToCustomerName.resources
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.MembershipTypeName.resources
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.MembershipTypeNameAddition.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.BirthDate.resources
