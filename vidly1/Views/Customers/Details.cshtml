@@ -8,5 +8,9 @@
    
 <ul>
     <li>MembershipType: @Model.MembershipType.MembershipName</li>
+    @if (Model.BirthDate.Any())
+    {
+        <li>Birthdate: @Model.BirthDate</li>
+    }
 </ul>
 
