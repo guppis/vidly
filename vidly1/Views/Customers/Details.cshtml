@@ -7,10 +7,10 @@
 <h2>@Model.Name</h2>
    
 <ul>
-    <li>MembershipType: @Model.MembershipType.MembershipName</li>
-    @if (Model.BirthDate.Any())
+    <li>Membership type: @Model.MembershipType.MembershipName</li>
+    @if (@Model.BirthDate.Any())
     {
-        <li>Birthdate: @Model.BirthDate</li>
+        <li>Birthday: @Model.BirthDate</li>
     }
 </ul>
 

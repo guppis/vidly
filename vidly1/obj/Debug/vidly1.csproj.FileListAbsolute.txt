@@ -133,3 +133,11 @@ C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.ApplyAnno
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.MembershipTypeName.resources
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.MembershipTypeNameAddition.resources
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.BirthDate.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.DBMovies.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.MovieProps.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.MoviesRequirements.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.Genres.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.GenreMovieFix.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.GenresFill.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.GenresFillNames.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.RelationBetweenGenres.resources

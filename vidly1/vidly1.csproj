@@ -244,9 +244,42 @@
     <Compile Include="Migrations\201811131013214_BirthDate.Designer.cs">
       <DependentUpon>201811131013214_BirthDate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811131036327_DBMovies.cs" />
+    <Compile Include="Migrations\201811131036327_DBMovies.Designer.cs">
+      <DependentUpon>201811131036327_DBMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811131039307_MovieProps.cs" />
+    <Compile Include="Migrations\201811131039307_MovieProps.Designer.cs">
+      <DependentUpon>201811131039307_MovieProps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811131048510_MoviesRequirements.cs" />
+    <Compile Include="Migrations\201811131048510_MoviesRequirements.Designer.cs">
+      <DependentUpon>201811131048510_MoviesRequirements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811131157041_Genres.cs" />
+    <Compile Include="Migrations\201811131157041_Genres.Designer.cs">
+      <DependentUpon>201811131157041_Genres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811131429266_GenreMovieFix.cs" />
+    <Compile Include="Migrations\201811131429266_GenreMovieFix.Designer.cs">
+      <DependentUpon>201811131429266_GenreMovieFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811131434017_GenresFill.cs" />
+    <Compile Include="Migrations\201811131434017_GenresFill.Designer.cs">
+      <DependentUpon>201811131434017_GenresFill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811131436386_GenresFillNames.cs" />
+    <Compile Include="Migrations\201811131436386_GenresFillNames.Designer.cs">
+      <DependentUpon>201811131436386_GenresFillNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811131439223_RelationBetweenGenres.cs" />
+    <Compile Include="Migrations\201811131439223_RelationBetweenGenres.Designer.cs">
+      <DependentUpon>201811131439223_RelationBetweenGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -320,6 +353,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -361,6 +395,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811131013214_BirthDate.resx">
       <DependentUpon>201811131013214_BirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811131036327_DBMovies.resx">
+      <DependentUpon>201811131036327_DBMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811131039307_MovieProps.resx">
+      <DependentUpon>201811131039307_MovieProps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811131048510_MoviesRequirements.resx">
+      <DependentUpon>201811131048510_MoviesRequirements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811131157041_Genres.resx">
+      <DependentUpon>201811131157041_Genres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811131429266_GenreMovieFix.resx">
+      <DependentUpon>201811131429266_GenreMovieFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811131434017_GenresFill.resx">
+      <DependentUpon>201811131434017_GenresFill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811131436386_GenresFillNames.resx">
+      <DependentUpon>201811131436386_GenresFillNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811131439223_RelationBetweenGenres.resx">
+      <DependentUpon>201811131439223_RelationBetweenGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
