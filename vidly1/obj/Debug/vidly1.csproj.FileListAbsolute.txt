@@ -130,3 +130,5 @@ C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.In1.resou
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.MembershipType.resources
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.MembershipTypeTut.resources
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.MembershipTypeName.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.MembershipTypeNameAddition.resources
