@@ -28,8 +28,12 @@ namespace vidly1.Controllers
 
     public ActionResult New()
     {
-      var customers = _context.Customers.Include(c => c.MembershipType).ToList();
-      return View(customers);
+      var memberShipTypes = _context.MembershipTypes.ToList();
+      var viewModel = new NewCustomerViewModel
+      { 
+        MembershipTypes = memberShipTypes
+      };
+       return View(viewModel);
     }
 
     public ViewResult Index()
