@@ -13,7 +13,7 @@ namespace vidly1.Models
 
     [Required] [StringLength(255)] public string Name { get; set; }
     [Display(Name="Date of Birth")]
-public DateTime? BirthDate { get; set; }
+    public DateTime? BirthDate { get; set; }
 
     public bool IsSubscribedToNewsletter { get; set; }
 
