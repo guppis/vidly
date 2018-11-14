@@ -30,13 +30,21 @@ namespace vidly1.Controllers
     {
       var memberShipTypes = _context.MembershipTypes.ToList();
       var viewModel = new NewCustomerViewModel
-      { 
+      {
         MembershipTypes = memberShipTypes
       };
-       return View(viewModel);
+      return View(viewModel);
     }
 
-    public ViewResult Index()
+    [HttpPost]
+    public ActionResult Create(Customer customer)
+    {
+      _context.Customers.Add(customer);
+      _context.SaveChanges();
+      return RedirectToAction("Index", "Customers");
+    }
+
+  public ViewResult Index()
     {
       var customers = _context.Customers.Include(c => c.MembershipType).ToList();
 
