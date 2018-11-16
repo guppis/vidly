@@ -142,3 +142,4 @@ C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.GenresFil
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.GenresFillNames.resources
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.RelationBetweenGenres.resources
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.BirthDayDateTime.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.DateAddedRequiredRemoval.resources

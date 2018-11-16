@@ -1,7 +1,8 @@
 ﻿  using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
+  using System.Data.Entity.Validation;
+  using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using vidly1.Models;
@@ -60,6 +61,7 @@ namespace vidly1.Controllers
       return View("MovieForm",viewModel);
     }
 
+    [HttpPost]
     public ActionResult Save(Movie movie)
     {
       if (movie.Id == 0) _context.Movies.Add(movie);
@@ -70,9 +72,18 @@ namespace vidly1.Controllers
         movieInDb.Genre = movie.Genre;
         movieInDb.ReleaseDate = movie.ReleaseDate;
         movieInDb.NumberAvailable = movie.NumberAvailable;
+
+        try
+        {
+          _context.SaveChanges();
+        }
+        catch (DbEntityValidationException e)
+
+        {
+          Console.WriteLine(e);
+        }
       }
-      _context.SaveChanges();
-      return RedirectToAction("Index", "Customers");
+        return RedirectToAction("Index", "Movies");
     }
   }
 }

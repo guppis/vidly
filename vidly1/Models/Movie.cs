@@ -20,7 +20,7 @@ namespace vidly1.Models
     [Required]
     public byte GenreId { get; set; }
 
-    [Required]
+    
     public DateTime DateAdded { get; set; }
 
     [Required]

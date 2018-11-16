@@ -280,6 +280,10 @@
     <Compile Include="Migrations\201811140740284_BirthDayDateTime.Designer.cs">
       <DependentUpon>201811140740284_BirthDayDateTime.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811162124404_DateAddedRequiredRemoval.cs" />
+    <Compile Include="Migrations\201811162124404_DateAddedRequiredRemoval.Designer.cs">
+      <DependentUpon>201811162124404_DateAddedRequiredRemoval.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -429,6 +433,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811140740284_BirthDayDateTime.resx">
       <DependentUpon>201811140740284_BirthDayDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811162124404_DateAddedRequiredRemoval.resx">
+      <DependentUpon>201811162124404_DateAddedRequiredRemoval.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
