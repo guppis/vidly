@@ -51,7 +51,7 @@ namespace vidly1.Controllers.API
 
       // UPDATE /api/customers/1
       [HttpPut]
-      public void UpdateCustomer(int id, Customer customer)
+      public void UpdateCustomer(int id, CustomerDTO customerDTO)
       {
         if (!ModelState.IsValid)
           throw new HttpResponseException(HttpStatusCode.BadRequest);
@@ -59,11 +59,7 @@ namespace vidly1.Controllers.API
 
         if (customerInDb == null) throw new HttpResponseException(HttpStatusCode.NotFound);
 
-        customerInDb.Name = customer.Name;
-        customerInDb.BirthDate = customer.BirthDate;
-        customerInDb.IsSubscribedToNewsletter = customer.IsSubscribedToNewsletter;
-        customerInDb.MembershipTypeId = customer.MembershipTypeId;
-
+        Mapper.Map(customerDTO, customerInDb);
         _context.SaveChanges();
 
        }
