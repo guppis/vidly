@@ -13,6 +13,7 @@ namespace vidly1.App_Start
     public MappingProfile()
     {
       Mapper.Initialize(cfg => cfg.CreateMap<Customer,CustomerDTO>());
+      Mapper.Initialize(cfg => cfg.CreateMap<Movie, MovieDTO>());
     }
   }
 } 
