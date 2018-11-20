@@ -143,3 +143,8 @@ C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.GenresFil
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.RelationBetweenGenres.resources
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.BirthDayDateTime.resources
 C:\Users\Julius\source\repos\vidly1\vidly1\obj\Debug\vidly1.Migrations.DateAddedRequiredRemoval.resources
+C:\Users\Julius\source\repos\vidly1\vidly1\bin\AutoMapper.dll
+C:\Users\Julius\source\repos\vidly1\vidly1\bin\System.ValueTuple.dll
+C:\Users\Julius\source\repos\vidly1\vidly1\bin\AutoMapper.pdb
+C:\Users\Julius\source\repos\vidly1\vidly1\bin\AutoMapper.xml
+C:\Users\Julius\source\repos\vidly1\vidly1\bin\System.ValueTuple.xml
